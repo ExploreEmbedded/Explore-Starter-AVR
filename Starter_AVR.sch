@@ -675,10 +675,6 @@ Text Label 1050 1400 2    60   ~ 0
 DRST
 Text Label 10200 3750 0    60   ~ 0
 DRST
-Text Label 8000 6100 0    60   ~ 0
-rxd
-Text Label 8000 6350 0    60   ~ 0
-txd
 Text Label 7600 5450 0    60   ~ 0
 S1
 Text Label 7600 5800 0    60   ~ 0
@@ -802,8 +798,6 @@ F 3 "~" H 7050 6600 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 8000 6600 0    60   ~ 0
-BL
-Text Label 4250 4500 0    60   ~ 0
 BL
 $Comp
 L GND #PWR015
@@ -1189,4 +1183,14 @@ NoConn ~ 6450 3850
 NoConn ~ 6450 3950
 Wire Wire Line
 	7450 3850 7450 3950
+Text Label 8000 6100 0    60   ~ 0
+L1
+Text Label 8000 6350 0    60   ~ 0
+L2
+Text Label 4250 4500 0    60   ~ 0
+L1
+Text Label 4250 4700 0    60   ~ 0
+BL
+Text Label 4250 4600 0    60   ~ 0
+L2
 $EndSCHEMATC
